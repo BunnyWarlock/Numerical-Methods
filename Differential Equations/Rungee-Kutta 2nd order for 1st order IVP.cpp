@@ -30,8 +30,10 @@ int main(){
 	for (n = 0; n < loop; ++n){
 		k1 = h * f(x, y);
 		k2 = h * f(x+h, y+k1);
+		
 		y += (k1 + k2)/2;
 		x += h;
+		
 		cout<<n<<"\t "<<k1<<"\t "<<k2<<"\t "<<y<<endl;
 	}
 
