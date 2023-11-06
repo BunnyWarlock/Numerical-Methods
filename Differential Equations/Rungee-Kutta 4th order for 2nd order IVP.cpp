@@ -42,7 +42,7 @@ int main(){
 		u += (k1 + 2*k2 + 2*k3 + k4)/6;
 		x += h;
 		
-		cout<<"\t     ("<<n<<")"<<endl;
+		cout<<"\t   (n = "<<n<<")"<<endl;
 		cout<<"y ("<<x<<") = "<<y<<endl;
 		cout<<"y'("<<x<<") = "<<u<<endl;
 		cout<<"       m     \t       k"<<endl;
